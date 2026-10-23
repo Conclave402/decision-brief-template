@@ -1,0 +1,14 @@
+{
+  "name": "decision-brief-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A product template for the Kognai engine: turns a brief into a decision brief",
+  "license": "MIT",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}

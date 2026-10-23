@@ -1,0 +1,14 @@
+{
+  "template_id": "decision-brief-default",
+  "template_name": "Decision Brief",
+  "brief": "Which paid x402 data feed should a small agent buy first?",
+  "mode": "cloud",
+  "cost_usd": 0.0123,
+  "engine_files": [
+    "brief.md"
+  ],
+  "product_files": [
+    "brief.md",
+    "brief.json"
+  ]
+}

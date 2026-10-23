@@ -1,0 +1,25 @@
+{
+  "id": "decision-brief-default",
+  "name": "Decision Brief",
+  "intent": ["brief", "research brief", "decision memo", "market scan", "product research"],
+  "default_profile": {
+    "primary": "quality",
+    "secondary": ["time-to-market", "cost-efficiency"]
+  },
+  "composition": {
+    "roles": [
+      { "role": "researcher", "count": 2 },
+      { "role": "synthesizer", "count": 1 },
+      { "role": "reviewer", "count": 1 }
+    ]
+  },
+  "workflow": "read the brief -> gather facts -> separate claims from evidence -> structure the memo -> review for unsupported claims -> ship the brief with an open questions list",
+  "skills": ["source-credibility", "claim-extraction", "executive-summary"],
+  "tools": ["web-search", "markdown-writer"],
+  "cost_per_run": {
+    "cloud_usd": 0.38,
+    "sovereign_usd": 0.01,
+    "measured_on": "engine envelope from @kognai/build 0.7.10 estimateCost() with four tasks (cloud-code, cloud-exec, cloud-code, cloud-exec) on 2026-10-23; not a billed run yet, a real measured run replaces this at M2",
+    "runs": 0
+  }
+}
